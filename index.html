@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<header class="header"> 
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"> <span>Juca</span>Veiculos</a>
+     
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#vehicles">Populares</a>
+        <a href="#serviços">Serviços</a>
+        <a href="#featured">Novidades</a>
+        <a href="#reviews">Opiniões</a>
+        <a href="#contato">Contato</a>
+    </nav>
+     
+    <div id="login-btn">
+        <button class="btn">Login</button>
+        <i class="fae fa-user"></i>
+    </div>
+</header>
+<div class="login-form-container">
+
+    <span class="fas fa-times" id="close-login-form"></span>
+    <form action="">
+        <h3>User Login</h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p>Esqueceu a Senha ? <a href="#">Clique Aqui</a></p>
+        <input type="submit" value="login now" class="btn">
+        <p>or Login with</p>
+        <div class="buttons">
+            <a href="#" class="btn">Google</a>
+            <a href="#" class="btn">Facebook</a>
+        </div>
+        <p>Você não tem uma conta<a href="#">Crie Uma</a>    
+    </form>
+
+</div>
+<!-- home sections starts -->
+<section class="home" id="home">
+ 
+    <h1 class="home-parallax" data-speed="-2">Encontre O seu Carro </h1>
+    <img calss="home-parallax" data-speed="5" src="img/homeimg.png" alt="">
+    
+
+</section>
+<!-- home sections ends -->
+
+
+<!-- icons sectin starts -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class = "fas fa-home"></i>
+        <div class="content">
+            <h3>150+</h3>
+            <p>Postos</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class = "fas fa-car"></i>
+        <div class="content">
+            <h3>4770+</h3>
+            <p>Carros Vendidos</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class = "fas fa-users"></i>
+        <div class="content">
+            <h3>590+</h3>
+            <p>Clientes Felizes</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class = "fas fa-car"></i>
+        <div class="content">
+            <h3>100+</h3>
+            <p>Carros Novos e Seminovos Prontos para Revenda</p>
+        </div>
+    </div>
+
+</section>
+<!-- icons sections ends -->
+
+
+<section class="vehicles" id="vehicles">
+    <h1 class="heading">Veiculos<span>Populares</span></h1>
+    <div class="swiper vehicles-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="img/brasilia_amarela-removebg-preview.png" alt="">
+                <div class="content">
+                    <h3>Brasilia Amarela</h3>
+                    <div class="price"> <span>Preço: </span> R$8000/-</div>
+                    <p>
+                        SemiNovo
+                        <span class="fas fa-circle"></span> 1973
+                        <span class="fas fa-circle"></span> Manual
+                        <span class="fas fa-circle"></span> Gasolina
+                        <span class="fas fa-circle"></span> 124 km/h
+                    </p>
+                    <a href="https://api.whatsapp.com/" class="btn">+55 85 9 9999-9999</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/civic96.png" alt="">
+                <div class="content">
+                    <h3>Honda Civic Hatch </h3>
+                    <div class="price"> <span>preço: </span> R$20,000/-</div>
+                    <p>
+                        SemiNovo
+                        <span class="fas fa-circle"></span> 1996
+                        <span class="fas fa-circle"></span> Automático
+                        <span class="fas fa-circle"></span> Gasolina
+                        <span class="fas fa-circle"></span> 165 km/h
+                    </p>
+                    <a href="https://api.whatsapp.com/" class="btn">+55 85 9 9999-9999</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/celta_prata-removebg-preview.png" alt="">
+                <div class="content">
+                    <h3>Chevrolet Celta</h3>
+                    <div class="price"> <span>preço: </span> R$10,000/-</div>
+                    <p>
+                        SemiNovo
+                        <span class="fas fa-circle"></span> 2001
+                        <span class="fas fa-circle"></span> Manual
+                        <span class="fas fa-circle"></span> Flex
+                        <span class="fas fa-circle"></span> 150 km/h                    </p>
+                    <a href="https://api.whatsapp.com/" class="btn">+55 85 9 9999-9999</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/chevrolet-chevette-1978-removebg-preview.png" alt="">
+                <div class="content">
+                    <h3>Chevrolet Chevette</h3>
+                    <div class="price"> <span>preço: </span> R$5,000/-</div>
+                    <p>
+                        SemiNovo
+                        <span class="fas fa-circle"></span> 1978
+                        <span class="fas fa-circle"></span> Manual
+                        <span class="fas fa-circle"></span> Gasolina
+                        <span class="fas fa-circle"></span> 150 km/h
+                    </p>
+                    <a href="https://api.whatsapp.com/" class="btn">+55 85 9 9999-9999</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/Chevrolet_Monza_1.8_SR_sedan_in_Punta_del_Este_01-removebg-preview.png" alt="">
+                <div class="content">
+                    <h3>Chevrolet Monza</h3>
+                    <div class="price"> <span>preço: </span> R$65000/-</div>
+                    <p>
+                        SemiNovo
+                        <span class="fas fa-circle"></span> 1989
+                        <span class="fas fa-circle"></span> Manual
+                        <span class="fas fa-circle"></span> Gasolina
+                        <span class="fas fa-circle"></span> 173 km/h
+                    </p>
+                    <a href="https://api.whatsapp.com/" class="btn">+55 85 9 9999-9999</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/corsa.png" alt="">
+                <div class="content">
+                    <h3>Corsa </h3>
+                    <div class="price"> <span>preço: </span> R$65000/-</div>
+                    <p>
+                        SemiNovo
+                        <span class="fas fa-circle"></span> 1996        
+                        <span class="fas fa-circle"></span> Manual
+                        <span class="fas fa-circle"></span> gasolina
+                        <span class="fas fa-circle"></span> 170 km/h
+                    </p>
+                    <a href="https://api.whatsapp.com/" class="btn">+55 85 9 9999-9999</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/ford_ka-removebg-preview.png" alt="">
+                <div class="content">
+                    <h3>Ford KA</h3>
+                    <div class="price"> <span>preço: </span> R$65000/-</div>
+                    <p>
+                        SemiNovo
+                        <span class="fas fa-circle"></span> 1998
+                        <span class="fas fa-circle"></span> Manual
+                        <span class="fas fa-circle"></span> Flex
+                        <span class="fas fa-circle"></span> 150 km/h
+                    </p>
+                    <a href="https://api.whatsapp.com/" class="btn">+55 85 9 9999-9999</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!-- Sessão Dos Veiculos (FIM) -->
+
+<!--Services section started-->
+
+    <section class="services" id="serviços">
+    
+        <h1 class="heading">Nossos<span> Serviços</span></h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <i class="fas fa-car"></i>
+                <h3>Venda De Carros</h3>
+                <p>"O carro dos seus sonhos, na sua mão."</p>
+               
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>Reparo</h3>
+                <p>"Seu carro de volta às ruas, em perfeito estado."</p>
+              
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-car-crash"></i>
+                <h3>Seguro de automóvel</h3>
+                <p>"Proteção para o seu carro, 24 horas por dia."</p>
+                
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-car-battery"></i>
+                <h3>Troca de Baterias</h3>
+                <p>"O seu carro pronto para rodar com todas as Luzes em ordem, em alguns minutos."</p>
+                
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-gas-pump"></i>
+                <h3>Troca de óleo/h3>
+                <p>"O seu carro rodando com mais eficiência, por mais tempo."</p>
+              
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>Suporte 24hrs</h3>
+                <p>"A sua tranquilidade, sempre à disposição."</p>
+              
+            </div>
+        </div>
+    
+    </section>   
+        
+        <!--Services section ends-->
+<!--Featured section starts-->
+<section class="featured" id="featured">
+
+    <h1 class="heading"><span>Carros </span> Em Novidade </h1>
+
+    <div class="swiper featured-slider">
+    
+        
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="img/car-1.png" alt="">
+                <h3>2019 BMW M5 Competition</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">R$590,000/-</div>
+                <a href="https://api.whatsapp.com/" class="btn">+55 85 9 9999-9999</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/car-2.png" alt="">
+                <h3>2015 BMW 320I</h3>
+                <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                </div>
+            <div class="price">R$100,000/-</div>
+            <a href="https://api.whatsapp.com/" class="btn">+55 85 9 9999-9999</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/car-3.png" alt="">
+                <h3>Toyota Corolla Altis</h3>
+                <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                </div>
+            <div class="price">R$110,000/-</div>
+            <a href="https://api.whatsapp.com/" class="btn">+55 85 9 9999-9999</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/car-4.png" alt="">
+                <h3>Audi A4 2017</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$120,000/-</div>
+                <a href="https://api.whatsapp.com/" class="btn">+55 85 9 9999-9999</a>
+            </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+    <div class="swiper featured-slider">
+    
+        
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="img/car-5.png" alt="">
+                <h3>Golf GTI 2019</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">R$200,000/-</div>
+                <a href="https://api.whatsapp.com/" class="btn">+55 85 9 9999-9999</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/car-6.png" alt="">
+                <h3>Honda Civic 2018</h3>
+                <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                </div>
+            <div class="price">R$90,000/-</div>
+            <a href="https://api.whatsapp.com/" class="btn">+55 85 9 9999-9999</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/car-7.png" alt="">
+                <h3>2012 Mitsubishi Lancer Evolution</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">R$130,000/-</div>
+                <a href="https://api.whatsapp.com/" class="btn">+55 85 9 9999-9999</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/car-8.png" alt="">
+                <h3>Toyota SW4 Diamond</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">R$350,000/-</div>
+                <a href="https://api.whatsapp.com/" class="btn">+55 85 9 9999-9999</a>
+            </div>
+            
+        <div class="swiper-pagination"></div>
+        
+    </div>
+
+</section>
+    <!--Featured section ends-->
+    <!-- newletter section -->
+
+<div class="newletter">
+    
+    <h3> Se inscreva para receber as novidades</h3>
+
+    <p>Aqui você receberá sempre em primeira mão tudo que há de novo no nosso Web Site!</p>
+
+    <form action="">
+        <input type="email" placeholder="Enter Your Email" name="" id="">
+        <input type="submit" class="subscribe" name="" id="">
+    </form>
+</div>
+<!-- newletter section ends-->
+<!-- review section starts-->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> client's <spam>review</spam> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper"> 
+           
+            <div class="swiper-slide box">
+                <img src="img/cliente.png" alt="">
+                <div class="content">
+                    <p> "Comprei um carro usado na Juca Veiculos. O carro está em boas condições, mas não é tão novo quanto eu esperava. O preço foi justo, mas o atendimento poderia ter sido melhor, demorei mais de 20 MINUTOS. De qualquer forma, estou satisfeito com a minha compra."</p>
+                    <h3>Vinicius Goes</h3>
+                    <div class="stars">
+                        <i class="stars"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+         <div class="swiper-slide box">
+                <img src="img/cliente - Copia.png" alt="">
+                <div class="content">
+                    <p> "Comprei um carro novo na Juca Veiculos e estou muito satisfeito. O atendimento foi excelente e o carro é maravilhoso. O único ponto negativo é que a negociação com o dono do carrro se tornou um pouco mais alto do que eu esperava. De resto, estou muito feliz com a minha compra."</p>
+                    <h3>Antonio José</h3>
+                    <div class="stars">
+                        <i class="stars"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="img/cliente.png" alt="">
+                <div class="content">
+                    <p> "Fui muito bem atendido na Juca Veiculos. Os vendedores foram atenciosos e prestativos, e me ajudaram a encontrar o carro perfeito para mim. O carro estava em ótimas condições e o preço era justo. Recomendo a loja para quem está procurando um carro novo ou usado."</p>
+                    <h3>Ermerson Jr</h3>
+                    <div class="stars">
+                        <i class="stars"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+</section>
+<!-- review section ends -->
+<!--Contact Section Starts-->
+<section class="contact" id="contato">
+<h1 class="heading"> <span>Entre Em Contato</span>Conosco</h1>
+
+<div class="row">
+
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15924.796120052426!2d-38.5749182!3d-3.7668215!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74c01797285bb%3A0xa8888be05f940563!2sCentro%20Universit%C3%A1rio%20Est%C3%A1cio%20-%20Campus%20Parangaba!5e0!3m2!1spt-BR!2sbr!4v1698269242666!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+ <form action="">
+    <h3>Entre em contato</h3>
+    <input type="text" placeholder="Name" class="box">
+    <input type="email" placeholder="Email" class="box">
+    <input type="number" placeholder="Number" class="box">
+    <textarea placeholder="Message" class="box" cols="30" rows="10"></textarea> 
+    <input type="submit" value="Enviar" class="btn">
+ </form>
+
+</div>
+</section>
+<!--Contact Section ends-->
+<!--Footer Section Starts-->
+<section class="footer">
+    <div class="box-container">
+    <div class="box">
+        <h3>Links Rapidos</h3>
+         <a href="#"> <i class="fas fa-arrow-right"></i> Inicio </a>
+         <a href="#"> <i class="fas fa-arrow-right"></i> Modelos</a>
+         <a href="#"> <i class="fas fa-arrow-right"></i> Serviços </a>
+         <a href="#"> <i class="fas fa-arrow-right"></i> featured</a>
+         <a href="#"> <i class="fas fa-arrow-right"></i>Contato</a>
+
+    </div>
+         <div class="box">
+            <h3>Links Rapidos</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +55 85 9 9999-9999</a>
+            <a href="#"> <i class="fas fa-phone"></i> +55 85 9 9999-9999</a>
+            <a href="#"> <i class="fas fa-envelope"></i>JucaVeiculos@gmail.com</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>Fortaleza, Ceará</a>
+             
+        </div>
+        <div class="box">
+            <h3>Links Rapidos</h3>
+            <a href="https://facebook.com"> <i class="fas fa-facebook"></i>Facebook</a>
+            <a href="https://x.com"> <i class="fas fa-twitter"></i>Twitter</a>
+            <a href="https://instagram.com"> <i class="fas fa-instagram"></i>Instagram</a>
+            <a href="https://linkedin.com"> <i class="fas fa-linkedin"></i>Linkedin</a>
+            <a href="https://pinterest.com"> <i class="fas fa-pinterest"></i>Pinterest</a>
+             
+        </div>
+    </div>
+         <div class="credit">Criado por JG/GB/AE/W/V/ All rights Reserved!</div>
+    
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>   
+</body>
+</html>
