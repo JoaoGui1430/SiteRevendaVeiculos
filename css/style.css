@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Questrial&display=swap');
 :root{
-    --yellow: #f9d806;
-    --light-yellow: #ffee80;
+    --yellow: rgb(45, 69, 173);
+    --light-yellow: rgb(76, 101, 214);
     --black: #130f40;
     --light-color: #666;
     --border: .1rem solid rgba(0,0,0,.1);
